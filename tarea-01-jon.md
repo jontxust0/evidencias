@@ -9,3 +9,12 @@ Antes de instalar nada actualizaremos los repositorios
 ![](images/jon/captura02.png)
 y ahora instalaremos el servidor apache con el siguiente comando:
 ![](images/jon/captura04.png)
+# 3. Instalacion del servidor de Bases de datos
+Una aplicacion deberá disponer de un servidor de bases de datos y al menos una base de datos a la que conectarse, podremos hacerlo instalando MYSQL con el siguiente comando
+![](images/jon/captura05.png)
+Y despues configurando el servidor, tras escribir otro comando
+![](images/jon/captura06.png)
+![](images/jon/captura07.png)
+![](images/jon/captura08.png)
+Tras configurarlo ya podemos logearnos en MYSQL con nuestro usuario, y empezar a trabajar con las bases de datos
+![](images/jon/captura10.png)

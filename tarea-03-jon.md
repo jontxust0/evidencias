@@ -12,6 +12,7 @@ Durante el proceso deberás elegir el ***Tipo*** de registro DNS. ***Describe en
 Esto lo haremos desde el panel de gestion de servicios online, cuando estemos en el, le damos a ***Registros DNS***
 ![](images/tarea03md/captura01.png)
 En ***Nombre*** ponemos el nombre del subdominio a crear, en ***TTL*** yo no lo he cambiado. ***Tipo*** A, y ***Dirección*** La direccion ip elastica de nuestra instancia. ya puesto los datos le damos a ***Añadir registro DNS***
+
 * NOTA: Antes de darle a ***Añadir registro DNS*** hay seleccionar el dominio, en la casilla ***Selecciona dominio a gestionar***
 ![](images/tarea03md/captura02.png)
 Y ya lo hemos creado

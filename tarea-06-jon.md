@@ -32,10 +32,16 @@ En ese directorio comprobamos que se ha extraido el ***.gz*** usando el comando 
 BASES DE DATOS
 Además de los ficheros se debe realizar una copia del volcado de todas las bases de datos. ¿Conoces los comandos necesarios para hacer el volcado y crear el fichero comprimido?
 
-Primero de todo nos logeamos en ***mySQL*** y con ela orden ***show databases*** veremos alguna base de datos de la cual realizar el volcado
+Primero de todo nos logeamos en ***mySQL*** y con ela orden ***show databases*** veremos algunas bases de datos, vamos a realizar una copia de todas estas dentro de un solo fichero
 
 ![](images/tarea06md/captura05.PNG)
 
-descargaremos todas las Bases de datos de MYSQL(en este caso) en un solo fichero, utilizando el siguiente comando
+descargaremos todas las BBDD en un solo fichero, utilizando el siguiente comando
+
+![](images/tarea06md/captura06.PNG)
+
+y usamos ***ls*** para ver que se ha creado el fichero
+
+![](images/tarea06md/captura07.PNG)
 
 Infórmate y documenta cómo se debe hacer.

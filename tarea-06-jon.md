@@ -12,21 +12,21 @@ El comando tar tiene tres opciones
 -f: el que se le va a dar al archivo
 
 Vamos a crear un archivo comprimido del directorio www en otro directorio para probar, lo haremos con el siguiente comando
-![](images/tarea06md/captura01.png)
+![](images/tarea06md/captura01.PNG)
 Una vez hagamos eso, usamos el comando ***ls*** para  er si esta ahí el .gz
-![](images/tarea06md/captura02.png)
+![](images/tarea06md/captura02.PNG)
 
 Ahora vamos a extraer ese .gz en otro directorio, para probar
-![](images/tarea06md/captura03.png)
+![](images/tarea06md/captura03.PNG)
 La opcion -C es para poder extraerlo en otro directorio distinto al actual
 
 En ese directorio comprobamos que se ha extraido el ***.gz*** usando el comando ***ls***
-![](images/tarea06md/captura04.png)
+![](images/tarea06md/captura04.PNG)
 BASES DE DATOS
 Además de los ficheros se debe realizar una copia del volcado de todas las bases de datos. ¿Conoces los comandos necesarios para hacer el volcado y crear el fichero comprimido?
 
 Primero de todo nos logeamos en ***mySQL*** y con ela orden ***show databases*** veremos alguna base de datos de la cual realizar el volcado 
-![](images/tarea06md/captura05.png)
+![](images/tarea06md/captura05.PNG)
 
 descargaremos todas las Bases de datos de MYSQL(en este caso) en un solo fichero, utilizando el siguiente comando
 

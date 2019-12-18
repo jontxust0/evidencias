@@ -1,9 +1,14 @@
 # TAREA 5: Servidor FTP
 Podemos instalar el ***vsftpd*** que viene siendo el servidor FTP en GNU/Linux
+
 ![](images/tarea05md/captura01.PNG)
+
 En el archivo de configuracion deberemos de tener escritas las siguientes lineas
+
 ![](images/tarea05md/captura03.PNG)
+
 ![](images/tarea05md/captura08.PNG)
+
 Una vez instalado, vamos a conectarnos al servidor desde otra maquina, via comandos. para que esto sea posible, en la instancia de amazon tenemos que añadir una regla de entrada que admita conexiones por el puerto 21
 
 ![](images/tarea05md/captura04.PNG)

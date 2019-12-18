@@ -43,3 +43,9 @@ descargaremos todas las BBDD en un solo fichero, utilizando el siguiente comando
 y usamos ***ls*** para ver que se ha creado el fichero
 
 ![](images/tarea06md/captura07.PNG)
+
+A la hora de editar el fichero podemos ver que a realizado la copia de las bases de datos, ya que esta compuesto de instrucciones sql para crear Bases de datos, tablas...
+
+![](images/tarea06md/captura08.PNG)
+
+![](images/tarea06md/captura09.PNG)

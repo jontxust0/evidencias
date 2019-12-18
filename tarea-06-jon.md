@@ -43,5 +43,3 @@ descargaremos todas las BBDD en un solo fichero, utilizando el siguiente comando
 y usamos ***ls*** para ver que se ha creado el fichero
 
 ![](images/tarea06md/captura07.PNG)
-
-Infórmate y documenta cómo se debe hacer.

@@ -28,11 +28,14 @@ Y despues de crearlo lo ejecutamos y comprueba que funciona
 
 #### AUTOMATIZAR
 Vamos a utilizar crontab para que los script creados anteriormente se vayan ejecutandose solos cada cierto tiempo.
-Lo haremos con el siguiente comando:
+Lo haremos editando el archivo de la ruta ***/etc/crontab***
 
 ![](images/tarea07md/captura08.PNG)
 
-Ten en cuenta que los datos del servidor se modifican (con la interacción de los usuarios de la aplicación web) con mayor frecuencia que las del cliente (que solo los modifica el equipo desarrollador), por tanto deberían hacerse más copias del servidor que del cliente.
+y añadiremos las siguientes lineas.
+En mi caso le dire que guarde la version del proyecto para el servidor, diariamente a las 18:00. Y la copia para el cliente cada semana a las 00:00
+
+![](images/tarea07md/captura09.PNG)
 
 #### BORRADO AUTOMATIZADO DE BACKUPS
 Al automatizar las copias de seguridad se crearán ficheros backup de forma periódica que ocuparán cada vez más espacio en disco. Teniendo en cuenta esto idea otro script para borrar los backups más antiguos de forma periódica y automatizalo con crontab.

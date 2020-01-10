@@ -38,4 +38,18 @@ En mi caso le dire que guarde la version del proyecto para el servidor, diariame
 ![](images/tarea07md/captura09.PNG)
 
 #### BORRADO AUTOMATIZADO DE BACKUPS
-Al automatizar las copias de seguridad se crearán ficheros backup de forma periódica que ocuparán cada vez más espacio en disco. Teniendo en cuenta esto idea otro script para borrar los backups más antiguos de forma periódica y automatizalo con crontab.
+Voy a crear un script un script que vaya a eliminar los archivos que se llamen igual que las copias de seguridad que vaya creando el otro script, y que hayan sido creados hace mas de 7 dias.
+
+![](images/tarea07md/captura10.PNG)
+
+Y despues en crontab le dire que vaya ejecutando este script, en mi caso lo hara cada dia
+
+![](images/tarea07md/captura11.PNG)
+
+Ahora el script del cliente, en este caso le diremos que borre las copias de seguridad de hace mas de un mes, porque estas van ser creadas cada una semana
+
+![](images/tarea07md/captura12.PNG)
+
+Y en el crontab le diremos que se ejecute a diario el script
+
+![](images/tarea07md/captura13.PNG)
